@@ -19,7 +19,7 @@ type Props = {
 const HomeHeader = ({ data }: Props) => {
   return (
     <LinearGradient
-      colors={[colors.blue[500], colors.blue[800]]}
+      colors={[colors.babyBlue[500], colors.babyBlue[700]]}
       style={styles.container}
     >
       <View>
@@ -35,7 +35,7 @@ const HomeHeader = ({ data }: Props) => {
         <Summary
           isRight
           data={data.output}
-          icon={{ name: "arrow-downward", color: colors.red[400] }}
+          icon={{ name: "arrow-downward", color: colors.red[300] }}
         />
       </View>
     </LinearGradient>
